@@ -1,0 +1,94 @@
+.navbar {
+	background-color: #faa730;
+	    border-color: white;
+}
+.navbar a:hover{
+	color: black !important;
+}
+.flex-center {
+	display: flex;
+  	justify-content: center;
+}
+.btn.btn-primary {
+	font-weight: 700;
+	background-color: #faa730;
+    border-color: white;
+}
+.btn.btn-primary:hover {
+	background-color: white;
+	color: #faa730;
+}
+.modal-content{
+	color: #faa730;
+	font-weight: 700;
+}
+.modal-header {
+	color: white;
+	background-color: #faa730;
+}
+
+@media only screen and (min-width: 600px) {
+
+	.div-table-product table {
+		width: 800px;
+	    margin-top: 34px;
+	   	-webkit-box-shadow: 0px -2px 51px 0px #0000002b;
+		-moz-box-shadow: 0px -2px 51px 0px #0000002b;
+		box-shadow: 0px -2px 51px 0px #0000002b;
+	    border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border: 0px solid #000000;
+	}
+	.div-table-product table input {
+		padding: .375rem 2px;
+		font-size: 12px;
+	}
+	.table-striped thead {
+		background-color: #faa730;
+		color: white;
+
+	}
+	.td_name, .td_name input {
+		min-width: 80px;
+		max-width: 100px;
+	}
+	.td_description, .td_description input {
+	    min-width: 350px;
+	    max-width: 370px;
+	}
+	.td_pricem, .td_price input {
+		min-width: 90px;
+		max-width: 120px;
+	}
+	.td_update, .td_delete {
+		min-width: 114px;
+		max-width: 114px;
+	}	
+
+}
+@media only screen and (max-width: 600px) {
+
+	.div-table-product table input, .div-table-product table, .div-table-product button{
+		font-size: 8px;
+	}
+
+	.div-table-product table td, .div-table-product table th, .div-table-product table input{
+		padding: 1px;
+	}
+
+	.td_update, .td_delete {
+		min-width: 59px;
+		max-width: 59px;
+	}
+}
+.btn-warning{
+	color: 	white;
+}
+.btn-warning:hover{
+	color: 	white;
+}
+form .btn-warning:hover{
+	color: 	white;
+	background-color: #88af9a;
+}
